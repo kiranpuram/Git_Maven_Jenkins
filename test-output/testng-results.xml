@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[SignUp Action Successfully Performed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59779" started-at="2015-12-30T14:14:28Z" finished-at="2015-12-30T14:15:27Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="46830" started-at="2015-12-30T14:14:28Z" finished-at="2015-12-30T14:15:14Z">
+      <class name="Framework.TC_PageObject">
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String)[pri:0, instance:Framework.TC_PageObject@3ca83695]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-30T14:14:28Z" finished-at="2015-12-30T14:14:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ctCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"45.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":"x86-msvc"},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1451484870384	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1451484870854	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1451484870865	DeferredSave.extensions.json	DEBUG	Starting timer
+1451484870868	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1451484870868	DeferredSave.extensions.json	DEBUG	Save changes
+1451484870868	DeferredSave.extensions.json	DEBUG	Save changes
+1451484870869	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"6w32bGINTuzZ","location":"app-global","version":"42.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1448367177991,"updateDate":1448367177991,"applyBackgroundUpdates":1,"skinnable":true,"size":24301,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"42.0","maxVersion":"42.0"}],"targetPlatforms":[]}
+1451484870869	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1451484870873	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1451484870873	addons.xpi-utils	DEBUG	Updating add-on states
+1451484870875	addons.xpi-utils	DEBUG	Writing add-ons list
+1451484870903	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1451484870904	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1451484870904	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1451484870905	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1451484870905	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1451484870907	addons.manager	DEBUG	Starting provider: GMPProvider
+1451484870923	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1451484870924	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1451484870924	addons.manager	DEBUG	Starting provider: PluginProvider
+1451484870924	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1451484870925	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1451484870926	addons.manager	DEBUG	Completed startup sequence
+1451484873361	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1451484873361	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1451484873361	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1451484875530	DeferredSave.extensions.json	DEBUG	Starting write
+1451484875810	addons.repository	DEBUG	No addons.json found.
+1451484875811	DeferredSave.addons.json	DEBUG	Save changes
+1451484875813	DeferredSave.addons.json	DEBUG	Starting timer
+1451484875827	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1451484875827	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1451484875827	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1451484875830	DeferredSave.extensions.json	DEBUG	Write succeeded
+1451484875830	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'keveen-PC', ip: '192.168.1.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ctCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"45.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":"x86-msvc"},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1451484870384	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1451484870854	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1451484870865	DeferredSave.extensions.json	DEBUG	Starting timer
+1451484870868	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1451484870868	DeferredSave.extensions.json	DEBUG	Save changes
+1451484870868	DeferredSave.extensions.json	DEBUG	Save changes
+1451484870869	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"6w32bGINTuzZ","location":"app-global","version":"42.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1448367177991,"updateDate":1448367177991,"applyBackgroundUpdates":1,"skinnable":true,"size":24301,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"42.0","maxVersion":"42.0"}],"targetPlatforms":[]}
+1451484870869	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1451484870873	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1451484870873	addons.xpi-utils	DEBUG	Updating add-on states
+1451484870875	addons.xpi-utils	DEBUG	Writing add-ons list
+1451484870903	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1451484870904	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1451484870904	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1451484870905	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1451484870905	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1451484870907	addons.manager	DEBUG	Starting provider: GMPProvider
+1451484870923	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1451484870924	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1451484870924	addons.manager	DEBUG	Starting provider: PluginProvider
+1451484870924	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1451484870925	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1451484870926	addons.manager	DEBUG	Completed startup sequence
+1451484873361	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1451484873361	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1451484873361	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1451484875530	DeferredSave.extensions.json	DEBUG	Starting write
+1451484875810	addons.repository	DEBUG	No addons.json found.
+1451484875811	DeferredSave.addons.json	DEBUG	Save changes
+1451484875813	DeferredSave.addons.json	DEBUG	Starting timer
+1451484875827	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1451484875827	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1451484875827	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1451484875830	DeferredSave.extensions.json	DEBUG	Write succeeded
+1451484875830	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'keveen-PC', ip: '192.168.1.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at Framework.TC_PageObject.beforeMethod(TC_PageObject.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ctCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"45.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":"x86-msvc"},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1451484870384	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1451484870854	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1451484870865	DeferredSave.extensions.json	DEBUG	Starting timer
+1451484870868	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1451484870868	DeferredSave.extensions.json	DEBUG	Save changes
+1451484870868	DeferredSave.extensions.json	DEBUG	Save changes
+1451484870869	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"6w32bGINTuzZ","location":"app-global","version":"42.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1448367177991,"updateDate":1448367177991,"applyBackgroundUpdates":1,"skinnable":true,"size":24301,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"42.0","maxVersion":"42.0"}],"targetPlatforms":[]}
+1451484870869	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1451484870873	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1451484870873	addons.xpi-utils	DEBUG	Updating add-on states
+1451484870875	addons.xpi-utils	DEBUG	Writing add-ons list
+1451484870903	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1451484870904	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1451484870904	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1451484870905	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1451484870905	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1451484870907	addons.manager	DEBUG	Starting provider: GMPProvider
+1451484870923	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1451484870924	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1451484870924	addons.manager	DEBUG	Starting provider: PluginProvider
+1451484870924	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1451484870925	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1451484870926	addons.manager	DEBUG	Completed startup sequence
+1451484873361	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1451484873361	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1451484873361	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1451484875530	DeferredSave.extensions.json	DEBUG	Starting write
+1451484875810	addons.repository	DEBUG	No addons.json found.
+1451484875811	DeferredSave.addons.json	DEBUG	Save changes
+1451484875813	DeferredSave.addons.json	DEBUG	Starting timer
+1451484875827	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1451484875827	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1451484875827	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1451484875830	DeferredSave.extensions.json	DEBUG	Write succeeded
+1451484875830	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+	... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TestTriangleApp_TC()[pri:0, instance:Framework.TC_PageObject@3ca83695]" name="TestTriangleApp_TC" duration-ms="1" started-at="2015-12-30T14:15:14Z" finished-at="2015-12-30T14:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTriangleApp_TC -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:Framework.TC_PageObject@3ca83695]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-30T14:15:14Z" finished-at="2015-12-30T14:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Framework.TC_PageObject -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="12907" started-at="2015-12-30T14:15:14Z" finished-at="2015-12-30T14:15:27Z">
+      <class name="Framework.TC_PageObject">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:Framework.TC_PageObject@389c3ed1]" name="beforeMethod" is-config="true" duration-ms="8790" started-at="2015-12-30T14:15:14Z" finished-at="2015-12-30T14:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestTriangleApp_TC()[pri:0, instance:Framework.TC_PageObject@389c3ed1]" name="TestTriangleApp_TC" duration-ms="2175" started-at="2015-12-30T14:15:23Z" finished-at="2015-12-30T14:15:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SignUp Action Successfully Performed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestTriangleApp_TC -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Framework.TC_PageObject@389c3ed1]" name="afterMethod" is-config="true" duration-ms="1941" started-at="2015-12-30T14:15:25Z" finished-at="2015-12-30T14:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Framework.TC_PageObject -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
